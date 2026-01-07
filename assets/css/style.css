@@ -1,0 +1,179 @@
+/*--------------- GERAL ---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unkempt:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+footer{
+    background-color: #580001;
+    color: white;
+}
+
+/*Rodapé*/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.container p{
+    font-size: 1.2em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.container li{
+    margin: 10px;
+    font-size: 1em;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+}
+
+.navegacao{
+    padding-top: 10px;
+}
+
+.navegacao ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.redes-sociais{
+    padding-top: 10px;
+}
+
+.redes-sociais ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.autoria{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/*--------------- TELA INICIAL ---------------*/
+
+/*Cabecalho*/
+.cabecalho{
+    background-color: #FFD1AA;
+    height: 90px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 8px #afafaf;
+}
+
+.logo{
+    margin: 25px;
+}
+
+.logo img{
+    width: 255px;
+    height: auto;
+}
+
+.botoes-cabecalho{
+    margin-right: 25px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonCabecalho{
+    width: 140px;
+    height: 55px;
+    border-radius: 17px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #850E0F;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Seção Inicial*/
+.banner{
+    background-color: #D9D9D9;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 15px;
+    padding-top: 50px;
+}
+
+.textos-banner{
+    word-wrap: break-word;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+#lista-beneficios{
+    text-align: left;
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5em;
+}
+
+.buttonSection{
+    width: 300px;
+    height: 65px;
+    border-radius: 17px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #850E0F;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-banner{
+    width: 800px;
+}
+
+.textos-banner h1{
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.imagem-banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.imagem-banner img{
+    width: 100%;
+    height: auto;
+}
+
+/*--------------- TELA DE CADASTRO ---------------*/
+
